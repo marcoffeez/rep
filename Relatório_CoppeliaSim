@@ -1,0 +1,22 @@
+Relatório:
+Missão CoppeliaSim
+
+
+Introdução
+  A missão abordada neste relatório se trata da CoppeliaSim, ela consiste em fazer um pêndulo funcional no programa CoppeliaSim, utilizando nada mais que blocos sólidos e uma junta de revolução.
+
+Procedimentos
+  Para começar, depois de ver alguns tutoriais, comecei criando um bloco (cubóide), e então criei uma junta de revolução, alterei o diâmetro dela para ficar compatível com o bloco, e entendível, logo, após colocar o cubóide como “Parent” da junta, eu elevei os dois juntos, alterei o ângulo para 90 graus, depois elevei os novamente,então tirei a opção dinâmica dos dois, para que não caíssem, por fim, alterei o ângulo da junta para 2 graus, para que a inércia fizesse a cair..
+  Nesse ponto, eu já possuía uma base, para o pêndulo, após isso, criei um bloco cilíndrico e coloquei ele de “Child” para a junta, ajustando a posição para se conectar a junta.
+  Após isso,  já tinha se tornado um pêndulo, apenas adicionei uma esfera no fim do bloco cilíndrico(juntei os utilizando o método “Group”), e dois blocos para formar uma base melhor pro bloco (por pura estética).
+
+Conclusão
+Com isso, o pêndulo foi completo, um trabalho simples mas que ajuda a fortalecer o seu entendimento no programa.
+
+
+Material de Apoio
+https://drive.google.com/file/d/1dx8SKTDGwbeXr1NPGh0TypOK-7J2VGK8/view
+https://youtu.be/uCzbp8qIXF4
+
+Resultado
+  (Arquivo anterior no repositório(pendulo_marcos.ttt)
